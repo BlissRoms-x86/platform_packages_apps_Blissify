@@ -918,6 +918,8 @@
     <string name="pulse_ambient_light_note">Wake screen on receiving new notifications must be turned on</string>
     <string name="pulse_ambient_light_pulse_for_all_title">Pulse for all doze events</string>
     <string name="pulse_ambient_light_pulse_for_all_summary">Pulses for all doze events and not just for notifications</string>
+    <string name="pulse_ambient_light_repeat_count_title">Repeat count</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
 
     <!-- Hide Apps from Recents -->
     <string name="hafr_category_title">HAFR</string>
@@ -1192,6 +1194,10 @@
     <!-- Lockscreen clock font size -->
     <string name="lock_date_font_size_title">Date font size</string>
     <string name="clock_font_size_title">Clock font size</string>
+    <string name="clock_font_size_warning_summary">When using Typeclock clock style use sizes ranging from 20 to 60, beyond 60 is too large for typeclock</string>
+
+    <!-- Pixel Gestures -->
+    <string name="pixelgestures_summary">Configure Pixel Gesture options</string>
 
     <!-- Motion Sense -->
     <string name="aware_settings_title">Motion Sense</string>
@@ -1324,6 +1330,7 @@
 
     <!-- Rgb Accenter -->
     <string name="rgb_accenter_title">Rgb Accenter</string>
+    <string name="gradient_color">Gradient picker</string>
 
     <!-- Accent presets -->
     <string name="accent_preset_0">Bliss</string>
@@ -1470,4 +1477,9 @@
     <!-- QS data usage -->
     <string name="qs_datausage_title">Show data usage in qs header</string>
     <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+
+    <!-- LS OwnerInfo Font & Size -->
+    <string name="owner_info_category">Owner Info Options</string>
+    <string name="lock_ownerinfo_font_title">Owner Info font options</string>
+    <string name="lockowner_font_size_title">Owner info font size</string>
 </resources>
